@@ -2,7 +2,7 @@ name: Fetch source
 
 on:
   schedule:
-    - cron: '10 15 * * *'
+    - cron: '30 19 * * *'
 
 jobs:
   fetch_source:
