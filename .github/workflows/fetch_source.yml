@@ -2,7 +2,7 @@ name: Fetch source
 
 on:
   schedule:
-    - cron: '30 19 * * *'
+    - cron: '00 14 * * *'
 
 jobs:
   fetch_source:
@@ -18,4 +18,4 @@ jobs:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         TZ: "Asia/Tokyo"
       run: |
-        ./submission_crawler.sh
+        ./clawler.sh
