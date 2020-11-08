@@ -50,7 +50,7 @@ IFS=$'\n'
 
 git config --global user.name "Xi80"
 git config --global user.email "h31e26@ed.cc.suzuka-ct.ac.jp"
-git remote set-url origin git@github.com:Xi80/competitiveProgramming.git
+git remote set-url origin https://Xi80:${GITHUB_TOKEN}@github.com/Xi80/competitiveProgramming.git
 git checkout -b master
 
 new_submissions="[]"
